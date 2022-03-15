@@ -1,4 +1,6 @@
 
+![RepoVisits](https://komarev.com/ghpvc/?username=SurendraReddyWesco&color=green)
+
 # AKS Cluster - Wesco Standards
 
 - [Introduction](#introduction)
@@ -21,7 +23,7 @@ How to create AKS cluster using Hashicorp Terraform as per the Wesco Standards
 
 ## Steps
 - Step1: Define an AKS Kubernetes cluster with Terraform
-- Step2: Set up Azure storage to store Terraform state
+- Step2: Set up Azure storage to store Terraform state/Terraform Workspace
 - Step3: Create the Kubernetes cluster
 - Step4: Test the Kubernetes cluster
 - Step5: Monitoring and logs
