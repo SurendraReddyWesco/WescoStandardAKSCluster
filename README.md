@@ -1,5 +1,12 @@
 
-![RepoVisits](https://komarev.com/ghpvc/?username=SurendraReddyWesco&color=green)
+[![RepoVisits](https://badges.pufler.dev/visits/SurendraReddyWesco/WescoStandardAKSCluster)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/SurendraReddyWesco/WescoStandardAKSCluster)](https://badges.pufler.dev)
+[![Created Badge](https://badges.pufler.dev/created/SurendraReddyWesco/WescoStandardAKSCluster)](https://badges.pufler.dev)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/SurendraReddyWesco/WescoStandardAKSCluster?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/SurendraReddyWesco/WescoStandardAKSCluster?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/SurendraReddyWesco/WescoStandardAKSCluster?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/SurendraReddyWesco/WescoStandardAKSCluster?color=red&style=plastic)
 
 # AKS Cluster - Wesco Standards
 
