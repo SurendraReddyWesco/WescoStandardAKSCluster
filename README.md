@@ -1,9 +1,9 @@
 
-[![RepoVisits](https://badges.pufler.dev/visits/SurendraBrainScale/WescoStandardAKSCluster)](https://badges.pufler.dev) ![GitHub top language](https://img.shields.io/github/languages/top/SurendraBrainScale/WescoStandardAKSCluster?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/SurendraBrainScale/WescoStandardAKSCluster?color=red&style=plastic) 
+[![RepoVisits](https://badges.pufler.dev/visits/SurendraReddyWesco/WescoStandardAKSCluster)](https://badges.pufler.dev) ![GitHub top language](https://img.shields.io/github/languages/top/SurendraReddyWesco/WescoStandardAKSCluster?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/SurendraReddyWesco/WescoStandardAKSCluster?color=red&style=plastic) 
 
-[![Generate terraform docs](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/documentation.yml/badge.svg)](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/documentation.yml)
-[![tfsec](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/tfsec.yml/badge.svg)](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/tfsec.yml)
-[![Terraform](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/terraform.yml/badge.svg)](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/terraform.yml)
+[![Generate terraform docs](https://github.com/SurendraReddyWesco/WescoStandardAKSCluster/actions/workflows/documentation.yml/badge.svg)](https://github.com/SurendraReddyWesco/WescoStandardAKSCluster/actions/workflows/documentation.yml)
+[![tfsec](https://github.com/SurendraReddyWesco/WescoStandardAKSCluster/actions/workflows/tfsec.yml/badge.svg)](https://github.com/SurendraReddyWesco/WescoStandardAKSCluster/actions/workflows/tfsec.yml)
+[![Terraform](https://github.com/SurendraReddyWesco/WescoStandardAKSCluster/actions/workflows/terraform.yml/badge.svg)](https://github.com/SurendraReddyWesco/WescoStandardAKSCluster/actions/workflows/terraform.yml)
 
 # AKS Cluster - Wesco Standards
 - [AKS Cluster - Wesco Standards](#aks-cluster---wesco-standards)
