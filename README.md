@@ -64,10 +64,14 @@ How to create AKS cluster using Hashicorp Terraform as per the Wesco Standards. 
 ![image](https://user-images.githubusercontent.com/94529299/159234400-e3cecfe3-c55c-4313-a97d-d4901643a7b5.png)
 
 ### Terraform module structure
+
 - The module is a container for multiple resources that are used together.
 	 - [ ] **main.t**f: the aks cluster resources are packaged in the main.tf file
-	 - [ ] **variables.tf**: In Terraform, modules can have input parameters, too. To define them, you use a mechanism input  	variables.
+	 - [ ] **variables.tf**: In Terraform, modules can have input parameters, too. To define them, you use a mechanism input variables.
 	 - [ ] **output.tf**: In Terraform, a module can also return values. Again, this is done using a mechanism: output variables.
+
+### Terraform cloud workspace
+![image](https://user-images.githubusercontent.com/98414596/159243500-67424d91-fbf2-4804-86cf-6fcd020802f9.png)
 
 ### Checklist
 
