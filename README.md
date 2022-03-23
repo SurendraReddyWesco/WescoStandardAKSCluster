@@ -1,12 +1,9 @@
 
-[![RepoVisits](https://badges.pufler.dev/visits/SurendraBrainScale/WescoStandardAKSCluster)](https://badges.pufler.dev)
-[![Updated Badge](https://badges.pufler.dev/updated/SurendraBrainScale/WescoStandardAKSCluster)](https://badges.pufler.dev)
-[![Created Badge](https://badges.pufler.dev/created/SurendraBrainScale/WescoStandardAKSCluster)](https://badges.pufler.dev)
+[![RepoVisits](https://badges.pufler.dev/visits/SurendraBrainScale/WescoStandardAKSCluster)](https://badges.pufler.dev) ![GitHub top language](https://img.shields.io/github/languages/top/SurendraBrainScale/WescoStandardAKSCluster?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/SurendraBrainScale/WescoStandardAKSCluster?color=red&style=plastic) 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/SurendraBrainScale/WescoStandardAKSCluster?style=plastic)
-![GitHub language count](https://img.shields.io/github/languages/count/SurendraBrainScale/WescoStandardAKSCluster?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/SurendraBrainScale/WescoStandardAKSCluster?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/SurendraBrainScale/WescoStandardAKSCluster?color=red&style=plastic)
+[![Generate terraform docs](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/documentation.yml/badge.svg)](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/documentation.yml)
+[![tfsec](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/tfsec.yml/badge.svg)](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/tfsec.yml)
+[![Terraform](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/terraform.yml/badge.svg)](https://github.com/SurendraBrainScale/WescoStandardAKSCluster/actions/workflows/terraform.yml)
 
 # AKS Cluster - Wesco Standards
 - [AKS Cluster - Wesco Standards](#aks-cluster---wesco-standards)
@@ -17,7 +14,7 @@
 	- [Project structure](#project-structure)
 		- [Terraform module structure](#terraform-module-structure)
 		- [Checklist](#checklist)
-	- [**References - Utilities**](#references---utilities)
+	- [References - Utilities](#references---utilities)
 
 ## Introduction
 How to create AKS cluster using Hashicorp Terraform as per the Wesco Standards. The AKS cluster in this guide supports the following features:
@@ -50,21 +47,21 @@ How to create AKS cluster using Hashicorp Terraform as per the Wesco Standards. 
 - Step5: Monitoring and logs
 
 ## Project structure
+- **main**: deployment and modules folder contains the terraform scripts.
 
-- **modules**: represent here in this layout the Terraform modules (general re-used functions) . We have basically 4 modules:
+![image](https://user-images.githubusercontent.com/94529299/159233449-60ae6979-e4da-48b8-816f-645f7b1bd59f.png)
+- **Deployment**: [deployment](deployment) folder contains details of multiple environments such as dev, prod and qa. 
+
+![image](https://user-images.githubusercontent.com/94529299/159234282-470df9e9-d257-4fb2-8073-f32cd9216f7f.png)
+- **modules**: [modules](modules) represent here in this layout the Terraform modules (general re-used functions) . We have basically 4 modules:
 	 - **acr**: AKS Container Registry service
 	 - **aks_cluster**: the main unit providing the AKS service
 	 - **aks_network**: Create the cluster Virtual Network and subnetwork on Azure
 	 - **log_analytics**: Container Insights is the unit that manages logs and cluster health checks.
 	 - **privatednszone**: access the cluster in private dns zones
 	 - **privateendpoint**: private end 
-- **Deployment**: is the main function of this layout, responsible of the AKS Kubernetes cluster deployment on Azure. 
-- In main.tf we define the Terraform modules already created in /modules sub-folder with the appropriate inputs defined in variables.tf.
 
-![image](https://user-images.githubusercontent.com/94529299/159233449-60ae6979-e4da-48b8-816f-645f7b1bd59f.png)
-![image](https://user-images.githubusercontent.com/94529299/159234282-470df9e9-d257-4fb2-8073-f32cd9216f7f.png)
 ![image](https://user-images.githubusercontent.com/94529299/159234400-e3cecfe3-c55c-4313-a97d-d4901643a7b5.png)
-
 
 ### Terraform module structure
 - The module is a container for multiple resources that are used together.
