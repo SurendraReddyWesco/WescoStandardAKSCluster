@@ -72,6 +72,8 @@ How to create AKS cluster using Hashicorp Terraform as per the Wesco Standards. 
 
 ### Terraform cloud workspace
 ![image](https://user-images.githubusercontent.com/98414596/159243500-67424d91-fbf2-4804-86cf-6fcd020802f9.png)
+![image](https://user-images.githubusercontent.com/98414596/159911900-60c4b2f9-0068-486c-9b46-519a3e291c15.png)
+
 
 ### Checklist
 
