@@ -74,6 +74,10 @@ How to create AKS cluster using Hashicorp Terraform as per the Wesco Standards. 
 ![image](https://user-images.githubusercontent.com/98414596/159243500-67424d91-fbf2-4804-86cf-6fcd020802f9.png)
 ![image](https://user-images.githubusercontent.com/98414596/159911900-60c4b2f9-0068-486c-9b46-519a3e291c15.png)
 
+In terraform while creating the workspace 3 different options are available to integrate with TF cloud workspace and github,
+- Terraform Cloud UI, 
+- Workspaces API, or 
+- the Terraform Cloud CLI integration.
 
 ### Checklist
 
